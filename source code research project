@@ -123,3 +123,21 @@ While Git is powerful, it can also be complex, especially for beginners. However
 Case Studies and Industry Adoption:
 
 How have different organizations or projects implemented Git for source code management?
+
+From the default branch of your repository on GitHub, create a codespace. See "Creating a codespace for a repository."
+In your codespace, create a new branch to work on.
+Make your changes and save them.
+Commit the change.
+Raise a pull request.
+
+What lessons can be learned from these case studies regarding successful Git adoption and management?
+Some key findings include the optimistic observation that git and GitHub are nearly ubiquitous among the case study authors. Additionally, we saw that among respondents, scripting analysis wherever possible is widely accepted as essential. For both reasons, plain text file formats were preferred.\ Testing and continuous integration was seen as crucial to maintaining reproducibility by those who have integrated these steps into their process, but quite a few respondents didn't mention either practice as part of their workflow. Finally, some of the most successful approaches were those that fundamentally recognize and adapt to the "ubiquity of error" that the scientific method defends against (Donoho, Maleki, Rahman, Shahram, & Stodden, 2009).
+Obstacles to reproducibility included issues with humans, computers, and the institutions that both inhabit. The case studies made clear, for example, that humans must be incentivized to spend time on tasks intended solely for reproducibility. This can be complicated by skill variation and disparate tool familiarity within research groups. But, even when the tools are used, a lack of access to restricted data or hardware can hobble reproducibility efforts of even the most determined scientists. Similarly, portability of one's workflow is still a challenge for those intent on openness, since packaging - especially installation of dependencies - remains a critical stumbling block to sharing and extending work.
+
+Future Trends:
+
+What are the emerging trends in source code management, and how is Git evolving to meet these new demands?
+The integration of AI and machine learning into development workflows is a trend that will likely influence the future of Git. These technologies can help automate complex tasks, improve code quality, and enhance developer productivity.
+
+How might advancements in DevOps, continuous integration/continuous deployment (CI/CD), and automation impact the future use of Git?
+Automated DevOps and CI/CD have revolutionized the way software is developed, tested, and deployed. By automating repetitive tasks and integrating code frequently, organizations can achieve faster time-to-market, higher software quality, and increased customer satisfaction. As technology continues to evolve, the future of DevOps will likely see even greater levels of automation, driven by advances in AI and machine learning.
