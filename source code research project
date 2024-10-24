@@ -1,0 +1,56 @@
+SOURCE CODE MANAGEMENT RESEARCH PROJECT
+How does Git enhance source code management practices in modern software development, and what are its key advantages and challenges compared to other version control systems?
+It handles large projects and complex histories with ease, making operations like commits, branching, and merging faster compared to other VCS. Efficient Storage: Git uses a combination of compression and delta encoding to store changes efficiently, minimizing disk space usage.
+
+Advantages of Git
+1.Distributed architecture: Git follows a distributed model, allowing developers to work offline and independently on their local repositories. This promotes flexibility, enhances collaboration, and enables branching and merging with ease.
+2.Speed and performance: Git’s design prioritizes speed and efficiency, making it fast even with large codebases and extensive histories.
+3.Branching and merging: Git provides powerful branching and merging capabilities, enabling developers to create multiple branches for experimentation, feature development, and bug fixes.
+4.Wide adoption and community support: Git has a massive user base and an active community, ensuring a vast collection of resources, tutorials, and plugins.
+
+Disadvantages of Git
+1.Learning curve: Git has a steeper learning curve compared to other VCS options due to its extensive feature set and command-line interface.
+2.Complexity for beginners: The flexibility and power of Git can be overwhelming for beginners, making it easy to make mistakes if not used correctly.
+3.Lack of access control: Git does not offer fine-grained access control, which can be a limitation in certain scenarios where strict access restrictions are required.
+
+Sub-questions
+Historical Context:
+
+How did source code management practices evolve before Git?
+Distributed model like Git, developers can now have their own repository. Now, you have a repository with complete autonomy where you can use a branching strategy of your choice, commit frequently, etc. Once the code is ready, you can create a Pull Request to the central repository. This makes code collaboration a whole lot easier.
+
+What were the limitations of previous version control systems (VCS) that Git aimed to address?
+1.Security Concerns: If not properly configured or secured, version control systems can pose security risks. This includes the potential for exposing sensitive code or intellectual property and the possibility of unauthorized access or data breaches.
+2.Single point of failure: All code changes are stored on a single central server. If this server goes down or becomes unavailable. Developers may be able to pull down changes or commit their own changes once the server is back online. This can cause delays and disruptions to the development process.
+3.Risk of losing everything: In case of irregular backups or corruption of the central server, the entire repository of revisions could be lost. 
+4.Slow updates or commits: Updating or committing changes to the repository may take some time to complete, depending on the network connection and the location of the central server. This can slow down the development process and make it harder for developers to work efficiently.
+5.Difficult conflict resolution: When multiple developers work on the same codebase, conflicts can arise when changes to the same code section are made simultaneously. Resolving these conflicts can be more challenging and time-consuming, as it may require coordination between different developers and branches.
+
+Key Features of Git:
+
+What are the primary features of Git that differentiate it from other VCS tools?
+1.Distributed Architecture. One of Git's most significant advantages is its distributed architecture.
+2.Powerful Branching and Merging. 
+3.High Performance. 
+4.Flexibility and Customization. 
+5.Strong Community and Ecosystem. 
+6.Robust Security. 
+7.Ease of Use and Learning Curve.
+
+How do branching, merging, and repository management in Git improve development workflows?
+Git branching best practices is not merely a preference but a significant component in delivering high-quality software efficiently. It allows us to work simultaneously, innovate freely, handle dependencies competently, and adjust to evolving requirements. By leveraging these practices, we can fully utilize Git branching and set the stage for successful project outcomes.
+Effective Git branching is instrumental in managing codebases, enhancing collaboration, and delivering top-tier software. Using best practices, teams can improve collaboration, accelerate development cycles, mitigate conflicts, streamline integration, enable continuous deployment, and manage hotfixes effectively. The use of branching, choosing the right strategy, creating focused branches, employing feature flags, code reviews, and automated testing, are all pivotal in refining the development workflow and maintaining code quality. Regular synchronization with the main branch, competent conflict resolution, and transparent communication of the branching strategy further bolster collaboration and smooth development processes.
+
+Advantages of Git:
+
+What are the main benefits of using Git for source code management in terms of collaboration, version tracking, and integration with CI/CD pipelines?
+It is essential to integrate Git with the CI/CD pipeline because this enables easier collaboration between development teams, quick and efficient code review, and ensures that every codebase changes goes through the testing process before deployment.
+
+How does Git support distributed development teams?
+
+Distributed development:
+Git gives each developer a local copy of the entire development history, and changes are copied from one such repository to another. These changes are imported as additional development branches and can be merged in the same way as a locally developed branch.
+
+Challenges and Solutions:
+
+What are the common challenges or drawbacks developers face when using Git?
